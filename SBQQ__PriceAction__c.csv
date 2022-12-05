@@ -7,10 +7,8 @@
 21b40655-8b93-4086-8651-0f647b2ee3a3,Discretionary_Discount_Decimal__c,"if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))","#N/A",ee892a6f-2dc0-4bc3-bc9e-bc3a9a9f5781,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 239b4136-3258-4bd8-8168-44013af169d1,SBQQ__Quantity__c,SBQQ__ProductOption__r.Protected_Devices__c,1.0,e6e19eb3-3a5e-4cff-8fb6-35eace1854d7,"#N/A","#N/A",Product Option,"#N/A","#N/A"
 243324ea-af05-4b82-8a2f-9b1ab6ccb821,Discount (%),"#N/A","#N/A",2f8a477a-fbfb-4764-af47-1199698af3bd,"#N/A","#N/A",Quote Line,"#N/A",20
-24997ff4-0eaf-4b1b-8afb-0529fd9f09e5,SBQQ__Quantity__c,Protected_Devices__c,1.0,b4e7e691-60a6-4f6d-90a2-26b1a4bf28f2,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 2ba86afe-2ccc-4603-823f-a6735d677396,Discretionary_Discount_Decimal__c,"if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))",2.0,4d2f63ab-050d-46f7-aa53-5cf3e64212a1,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 37c9af77-d2e8-4c1e-b6d3-c178cd068270,Discretionary_Discount_Percent__c,"100.0 * if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))","#N/A",8a173a03-4fc1-4e39-b2b6-0a7ade3279b2,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
-3a4f62e4-5b4b-49f2-8862-7d1b1002c017,SBQQ__Quantity__c,Protected_Devices__c,1.0,aa2b19f3-e7d2-465d-ad3c-50fd3440df5c,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 40933b18-83b7-45a0-9fba-a548e3eb64b6,Discount (%),"#N/A","#N/A",46570017-72bd-4160-875e-d60d1958c7a9,"#N/A","#N/A",Quote Line,"#N/A",45
 41273e97-a217-4343-9ec7-5ec89b6fb246,Discretionary_Discount_Decimal__c,"if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))",2.0,8afd913a-8bd7-4dbe-a248-38530d6263df,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 41886a78-00d0-4db6-a7d8-5009d7ebdce4,Billing_Approval_Level__c,"IF((TEXT(SBQQ__BillingFrequency__c)  <>  TEXT(SBQQ__Product__r.SBQQ__BillingFrequency__c)) ||
@@ -21,11 +19,10 @@ IF( SBQQ__Quote__r.Calculate_Tax__c = True && SBQQ__Quote__r.SBQQ__BillingCountr
 4ab42811-a17c-4fb1-9228-4db2961fb562,Billing_Approval_Level__c,"IF((TEXT(SBQQ__BillingFrequency__c)  <>  TEXT(SBQQ__Product__r.SBQQ__BillingFrequency__c)) ||
 (TEXT(SBQQ__BillingType__c) <> TEXT(SBQQ__Product__r.SBQQ__BillingType__c)), 1, 0)",1.0,b638a4b1-2c8d-4c14-a70c-9a171ad9704b,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 4fda9704-3dc2-4cca-bbf1-5f01f420d7cb,Discount (Amt),"#N/A","#N/A",d6c2e346-1698-4025-8e95-a743fbfee59f,"#N/A","#N/A",Quote Line,"#N/A",10
-556fcc69-2454-4201-ba3e-035a354c719b,SBQQ__Quantity__c,Protected_Devices__c,1.0,7fb853f7-23ae-428c-990e-d7ff2dedc3bf,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 58728ce4-fe15-4341-9dc7-b3d447ceaafb,Discretionary_Discount_Percent__c,"100.0 * if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))","#N/A",fc4bdb0a-be30-4f37-970e-d7bbe9f666fc,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 690a79b3-d296-49bf-adfb-7f54a8f96484,Discretionary_Discount_Decimal__c,"if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))","#N/A",8a173a03-4fc1-4e39-b2b6-0a7ade3279b2,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 698d461c-8fd9-4964-b684-3b893c62034f,Discount (%),"#N/A","#N/A",168079a6-e06d-412c-afbc-d59a99e68b96,"#N/A","#N/A",Quote Line,"#N/A",10
-6a337133-6cf0-49fc-acbc-75cf3becdcc5,SBQQ__Quantity__c,Protected_Devices__c,1.0,262f6f0b-bd87-4119-baf3-00c25c30ec07,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
+73ca84b5-29c0-4e42-8466-7628418fbd4d,Discount (%),"#N/A","#N/A",ed1d0846-0e7a-43c9-88b0-c51b4d7bd100,"#N/A","#N/A",Quote,"#N/A",10
 7586f8c8-9128-4941-8990-176dd182f91e,Discretionary_Discount_Decimal__c,"if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))","#N/A",8971622c-b1b3-44ab-bcbb-b2b31623e2a4,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 79f29718-f316-4329-9fda-27c3757de415,Discretionary_Discount_Percent__c,"100.0 * if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))","#N/A",965ebef0-040a-40dd-9c86-b4f97ae5a13c,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 7e55fbb0-b9c5-44ac-b9ac-dc9a68ad676a,SBQQ__Quantity__c,SBQQ__ProductOption__r.Protected_Devices__c,1.0,dd80c472-f45b-40c7-9743-cc982d428dad,"#N/A","#N/A",Product Option,"#N/A","#N/A"
@@ -42,7 +39,6 @@ a167ded6-0fee-44b4-bdb1-49e5f5cecaa3,SBQQ__Quantity__c,SBQQ__ProductOption__r.Pr
 a30b3c7e-cd5c-44b8-ac1f-6a1d6947226e,SBQQ__TaxCode__c,"IF( SBQQ__Quote__r.Calculate_Tax__c = True && SBQQ__Quote__r.SBQQ__BillingCountry__c = ""United States"", ""A234"", 
 IF( SBQQ__Quote__r.Calculate_Tax__c = True && SBQQ__Quote__r.SBQQ__BillingCountry__c = ""United Kingdom"", ""B567"", 
 ""A000""))","#N/A",423398e2-721e-4997-89f9-ef1cd62aae6c,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
-afbddb67-83f3-43e1-8c63-a266d996f66b,SBQQ__Quantity__c,Protected_Devices__c,1.0,632bca72-5e54-4df8-9656-cb1aebffad81,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 afe02144-3239-4fec-b96f-6efd2dfb96e4,Discretionary_Discount_Decimal__c,"if( SBQQ__RegularPrice__c =0, 0, ( SBQQ__NetPrice__c -SBQQ__RegularPrice__c)/(-1.0 * SBQQ__RegularPrice__c))",2.0,227454f8-0a9d-477a-bd5f-b9e6c2b7ab07,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
 b24f9cbf-b0bb-4c94-add1-db9fa195d752,Billing_Approval_Level__c,"IF((TEXT(SBQQ__BillingFrequency__c)  <>  TEXT(SBQQ__Product__r.SBQQ__BillingFrequency__c)) ||
 (TEXT(SBQQ__BillingType__c) <> TEXT(SBQQ__Product__r.SBQQ__BillingType__c)), 1, 0)",1.0,3f302b41-39a7-4944-99f7-b0580d6aad88,"#N/A","#N/A",Quote Line,"#N/A","#N/A"
