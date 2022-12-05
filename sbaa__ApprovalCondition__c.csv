@@ -1,0 +1,3 @@
+"Guid","sbaa__ApprovalRule__c","sbaa__EnableSmartApproval__c","sbaa__FilterField__c","sbaa__FilterType__c","sbaa__FilterValue__c","sbaa__FilterVariable__c","sbaa__Index__c","sbaa__Operator__c","sbaa__TestedField__c","sbaa__TestedVariable__c"
+81485496-2cb2-4ccf-9560-1bcb9b8e8ec3,e84cd098-8524-422b-9bb1-038d5a302758,false,"#N/A",Value,Z,"#N/A",2.0,ends with,Name,"#N/A"
+f0fdde8f-dd3c-4d3c-8981-56cccc21e3a6,e84cd098-8524-422b-9bb1-038d5a302758,false,"#N/A",Value,A,"#N/A",1.0,starts with,Name,"#N/A"
