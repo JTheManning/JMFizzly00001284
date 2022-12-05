@@ -68,7 +68,7 @@ e66796f0-91dd-4f83-8fc0-aaad1861805d,Lookup Approval Level 3 [Discount],false,"#
 e6b5cd2b-9686-411f-ba3b-cd6aa8a5d54d,Lookup Approval Level 1 [Discount],false,"#N/A",All,"#N/A",On Initialization,50.0,Approval_Threshold__c,"#N/A",Calculator
 e6e19eb3-3a5e-4cff-8fb6-35eace1854d7,Config - Set Device Count,false,"#N/A",All,Edit,"#N/A",99.0,"#N/A","#N/A",Configurator
 ec331967-060d-4754-a51f-895ffdaf5179,Lookup Approval Level [Discount],false,"#N/A",All,"#N/A",On Initialization;Before Calculate;On Calculate;After Calculate,99.0,Approval_Threshold__c,"#N/A",Calculator
-ed1d0846-0e7a-43c9-88b0-c51b4d7bd100,VC4Data1 05DEC2022,false,"#N/A",All,"#N/A",On Calculate,"#N/A","#N/A","#N/A",Calculator
+ed1d0846-0e7a-43c9-88b0-c51b4d7bd100,VC4Data1 05DEC2022,false,"#N/A",Any,"#N/A",On Calculate,"#N/A","#N/A","#N/A",Calculator
 ee892a6f-2dc0-4bc3-bc9e-bc3a9a9f5781,Set True Discretionary Discount %,false,"#N/A",All,"#N/A",After Calculate,98.0,"#N/A","#N/A",Calculator
 f169c677-6385-48c2-9322-be533967e261,Config - Set Device Count,false,"#N/A",All,Edit,"#N/A",99.0,"#N/A","#N/A",Configurator
 f7119dec-8c71-40c6-ad8a-7ee0cb70b4aa,VC_TEST,false,"#N/A",All,"#N/A",On Initialization;On Calculate,"#N/A","#N/A","#N/A",Configurator
